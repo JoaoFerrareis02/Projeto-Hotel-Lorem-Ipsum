@@ -1,0 +1,218 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 1 de jul. de 2023, 20:53:42
+    Author     : VICTOR
+*/
+
+.corpo-documento {
+    margin: 0px;
+    font-size: 12px;
+    color: #4D5051;
+    background-color: #D6D6D6;
+}  
+
+.topo_pagina {
+    background-image: url(../imagens/imagem-topo-pagina.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    width: 100%;
+    float: left;
+}
+
+.base-pagina {
+    background-image: url(../imagens/imagem-base-pagina.png);
+    background-repeat: repeat-x;
+    background-position: left bottom;
+    width: 100%;
+    float: left;
+}
+
+.pagina {
+    margin: 0px auto;
+    width: 1000px;
+}
+
+.main, .header {
+    width: 1000px;
+    float: left;
+}
+
+.header-topo{
+    background-image: url(../imagens/logo_hotel.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    width: 990px;
+    height: 160px;
+    float: left;
+    margin-left: 10px;
+}
+
+.header-topo h1 {
+    font-family: "Times New Roman",Times,serif;
+    font-size: 48px;
+    font-weight: bold;
+    color: #FF8000;
+    margin-left: 120px;
+    text-shadow: #444444 3px 3px 3px;
+}
+
+.header-topo h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #000000;
+    margin-left: 120px;
+    font-style: normal;
+}
+
+.header-base {
+    background-color: lightblue;
+    width: 1000px;
+    height: 35px;
+    float: left;
+}
+
+.header-base p {
+    font-family: Verdana;
+    font-weight: bold;
+    color: #0000FF;
+    margin-left: 30px;
+    font-style: normal;
+}
+
+.barra-menu {
+    background-image: url(../imagens/fundo-menu.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+    width: 1000px;
+    height: 74px;
+    float: left;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    float: left;
+}
+
+.dropdown:hover .dropbutton {
+    color: #FF0000;
+    font-weight: bold;
+    display: inline-block;
+    vertical-align: middle;
+    background: #47C4ED;
+    opacity: 0.5;
+    box-shadow: inset 0 0 0 4px #E1E1E1, 0 0 1px rgba(0,0,0,0);
+}
+
+.dropbutton {
+    background-color: rgba(0,0,0,0);
+    color: white;
+    padding: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    margin-top: 13px;
+}
+
+.conteudo-corpo {
+    background-color: #FFFFFF;
+    background-image: url(../imagens/topo-corpo.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+    width: 980px;
+    float: left;
+    padding: 20px 10px 20px 10px; 
+}
+
+.coluna-esquerda {
+    background-color: #F5DEB3;
+    width: 250px;
+    float: left;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.coluna-esquerda p {
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.coluna-direita {
+    background-color: #F5DEB3;
+    width: 290px;
+    float: right;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.coluna-direita p {
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.linha1-coluna-direita {
+    width: 290px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+.separacao-linhas {
+    border-top-style: double;
+    width: 280px;
+    margin-left: 5px;
+    float: left;
+}
+
+.linha2-coluna-direita {
+    width: 290px;
+    margin-left: 5px;
+    float: left;
+}
+
+.formulario {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.titulo-formulario {
+    font-family: Verdana;
+    font-size: 14px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #47C4ED;
+    text-align: center;
+}
+
+.coluna-central{
+    width: 420px;
+    margin-left: 5px;
+    margin-right: 5px;
+    float: left;
+}
+
+.rodape-pagina {
+    padding: 24px 24px 0px;
+    line-height: 60px;
+    background-image: url(../imagens/rodape-corpo.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+    width: 952px;
+    height: 70px;
+    float: left;
+}
+
+.rodape-pagina p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: #FFFFFF;
+    float: left;
+    text-align: center;
+}
